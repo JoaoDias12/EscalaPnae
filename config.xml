@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.SoMoth.EscalaPNAE" version="1.0.2" android-versionCode="10002">
+    <name>EscalaPNAE</name>
+    <description></description>
+    <author email="empresacriativoweb@gmail.com" href="https://criativowebsites.com.br">
+        SoMoth
+    </author>
+
+    <platform name="android">
+       <preference name="AndroidWindowSplashScreenBackground" value="#000000" />
+       <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/android/iconMe.png" />
+
+       <icon src="res/android/iconGame.png"/>     
+    </platform>
+
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>
